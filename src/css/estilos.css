@@ -7,7 +7,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
 	max-width: 1120px;
-	background: linear-gradient(150deg,#042142, #2475ac, #042142 );
+	background: linear-gradient(150deg, #042142, #2475ac, #042142);
 	background-size: 120% 120% 120%;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .home .foto.sombra-interna {
-	background: linear-gradient(to right, #2475ac, #3de0fc, #733e85 );
+	background: linear-gradient(to right, #2475ac, #3de0fc, #733e85);
 	background-size: 180% 180%;
 	animation: gradient-animation 5s ease infinite;
 }
@@ -238,7 +238,7 @@ body {
 	transition: 0.2s;
 	background: none;
 	color: #fff;
-	text-transform: capitalize;	
+	text-transform: capitalize;
 }
 
 .projetos .btn-voltar-inicio:hover {
@@ -252,18 +252,21 @@ body {
 }
 
 .projetos .botoes-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px; /* Adicione margem inferior para separar do botão "Voltar ao início" */
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	/* Adicione margem inferior para separar do botão "Voltar ao início" */
 }
 
 .projetos .botoes-container button {
-  margin: 0 10px; /* Adicione margem entre os botões "Mostrar mais" e "Mostrar menos" */
+	margin: 0 10px;
+	/* Adicione margem entre os botões "Mostrar mais" e "Mostrar menos" */
 }
 
 .projetos .btn-voltar-inicio {
-  display: block;
-  margin: 0 auto; /* Centralize o botão "Voltar ao início" horizontalmente */
+	display: block;
+	margin: 0 auto;
+	/* Centralize o botão "Voltar ao início" horizontalmente */
 }
 
 
@@ -271,7 +274,7 @@ body {
 @keyframes gradient-animation {
 	0% {
 		background-position: 0% 50%;
-	}	
+	}
 
 	50% {
 		background-position: 100% 50%;

@@ -11,6 +11,19 @@ body {
 	background-size: 120% 120% 120%;
 }
 
+header {
+	background: linear-gradient(150deg, #042142, #2475ac, #042142);
+}
+
+footer {
+	background: linear-gradient(150deg, #042142, #2475ac, #042142);
+	position: relative;
+	color: #fff;
+	text-align: center;
+	padding: 60px 20px;
+	overflow: hidden;
+}
+
 .cabecalho {
 	display: flex;
 	justify-content: space-between;
@@ -39,7 +52,7 @@ body {
 	font-size: 20px;
 	text-transform: capitalize;
 	padding: 10px 20px;
-	transition: 0.2s;
+	transition: 0.3s;
 }
 
 .cabecalho .menu li a:hover {
@@ -80,23 +93,57 @@ body {
 .home .redes-sociais {
 	display: flex;
 	gap: 20px;
+	justify-content: flex-end;
 }
 
+/* BASE (igual ao footer) */
 .home .redes-sociais a i {
-	border: 1px solid #fff;
-	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	width: 50px;
 	height: 50px;
-	padding: 10px;
-	text-align: center;
-	font-size: 26px;
-	transition: 0.3s;
+	border-radius: 50%;
+
+	border: 1px solid #fff;
+	color: #fff;
+
+	font-size: 22px;
+	transition: all 0.3s ease;
 }
 
-.home .redes-sociais a i:hover {
-	color: #3de0fc;
-	border: 3px solid #3de0fc;
-	transform: scale(1.1);
+/* LINKEDIN */
+.home .redes-sociais a.linkedin:hover i {
+	background: #0A66C2;
+	border: none;
+	color: #fff;
+}
+
+/* WHATSAPP */
+.home .redes-sociais a.whatsapp:hover i {
+	background: #25D366;
+	border: none;
+	color: #fff;
+}
+
+/* GITHUB */
+.home .redes-sociais a.github:hover i {
+	background: #171515;
+	border: none;
+	color: #fff;
+}
+
+/* INSTAGRAM */
+.home .redes-sociais a.instagram:hover i {
+	background: linear-gradient(45deg, #1877f2, #833ab4, #fd1d1d, #fcb045);
+	border: none;
+	color: #fff;
+}
+
+/* ANIMAÇÃO */
+.home .redes-sociais a:hover i {
+	transform: scale(1.15);
 }
 
 .home .container-foto .foto {
@@ -267,6 +314,140 @@ body {
 	margin: 0 auto;
 }
 
+#rodape {
+	text-align: center;
+	max-width: 300px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 50px;
+    padding: auto;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer h3 {
+	font-size: 28px;
+	margin-bottom: 5px;	
+}
+
+footer h4 {
+	font-weight: 400;
+	margin-bottom: 20px;
+	color: #ccc;
+}
+
+.cta {
+	margin: 20px 0;
+	font-weight: bold;
+	color: #00d4ff;
+}
+
+.redes-sociais-footer{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.footer .redes-sociais-footer{
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+
+.footer .redes-sociais-footer a i {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	text-align: center;
+	font-size: 26px;
+	transition: 0.3s;
+}
+
+.footer .redes-sociais-footer a i:hover {
+	color: #3de0fc;
+	border: 3px solid #3de0fc;
+	transform: scale(1.1);
+}
+
+.copy {
+	display: block;
+	margin-top: 30px;
+	font-size: 12px;
+	color: #aaa;
+}
+
+/* LINKEDIN */
+.redes-sociais-footer a.linkedin:hover i {
+	color: #0A66C2;
+	border-color: #0A66C2;
+}
+
+/* BASE DOS ÍCONES */
+.redes-sociais-footer {
+	list-style: none;
+	padding: 20px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.redes-sociais-footer a i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+
+	border: 1px solid #fff;
+	color: #fff;
+
+	font-size: 22px;
+	transition: all 0.3s ease;
+}
+
+/* LINKEDIN */
+.redes-sociais-footer a.linkedin:hover i {
+	background: #0A66C2;
+	border: none;
+	color: #fff;
+}
+
+/* WHATSAPP */
+.redes-sociais-footer a.whatsapp:hover i {
+	background: #25D366;
+	border: none;
+	color: #fff;
+}
+
+/* GITHUB */
+.redes-sociais-footer a.github:hover i {
+	background: #171515;
+	border: none;
+	color: #fff;
+}
+
+/* INSTAGRAM (gradiente 🔥) */
+.redes-sociais-footer a.instagram:hover i {
+	background: linear-gradient(45deg, #1877f2, #833ab4, #fd1d1d, #fcb045);
+	border: none;
+	color: #fff;
+}
+
+/* EFEITO DE ANIMAÇÃO */
+.redes-sociais-footer a:hover i {
+	transform: scale(1.15);
+}
 
 
 @keyframes gradient-animation {

@@ -5,8 +5,7 @@ html {
 
 body {
 	font-family: "Poppins", sans-serif;
-	margin: 0 auto;
-	max-width: 1120px;
+	margin: 0;
 	background: linear-gradient(150deg, #042142, #2475ac, #042142);
 	background-size: 120% 120% 120%;
 }
@@ -22,6 +21,13 @@ footer {
 	text-align: center;
 	padding: 60px 20px;
 	overflow: hidden;
+	width: 100%;
+}
+
+.container {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 0 20px;
 }
 
 .cabecalho {
@@ -66,7 +72,8 @@ footer {
 	min-height: calc(100vh - 125px);
 	align-items: center;
 	gap: 50px;
-	justify-content: space-between;
+	justify-content: center;
+	padding: 25px;
 }
 
 .home .informacoes {

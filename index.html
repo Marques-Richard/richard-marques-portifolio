@@ -1,549 +1,576 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Richard Marques | Desenvolvedor Front-End</title>
 
-    <link rel="shortcut icon" href="./src/imagens/ric-foto-port.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./src/imagens/ric-foto-port.ico"
+      type="image/x-icon"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/estilos.css">
-    <link rel="stylesheet" href="./src/css/responsivo.css">
-</head>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- HEADER -->
 
     <header>
+      <div class="container cabecalho">
+        <a href="#home" class="logo"> RM </a>
 
-        <div class="container cabecalho">
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="#home">Início</a>
+            </li>
 
-            <a href="#home" class="logo">
-                RM
-            </a>
+            <li>
+              <a href="#sobre">Sobre</a>
+            </li>
 
-            <nav class="menu">
+            <li>
+              <a href="#tecnologias">Tecnologias</a>
+            </li>
 
-                <ul>
+            <li>
+              <a href="#projetos">Projetos</a>
+            </li>
 
-                    <li>
-                        <a href="#home">Início</a>
-                    </li>
+            <li>
+              <a href="#contato">Contato</a>
+            </li>
+          </ul>
+        </nav>
 
-                    <li>
-                        <a href="#sobre">Sobre</a>
-                    </li>
-
-                    <li>
-                        <a href="#tecnologias">Tecnologias</a>
-                    </li>
-
-                    <li>
-                        <a href="#projetos">Projetos</a>
-                    </li>
-
-                    <li>
-                        <a href="#contato">Contato</a>
-                    </li>
-
-                </ul>
-
-            </nav>
-
-            <a href="./src/arquivos/RICHARD-MARQUES-cv-DEV.pdf" class="btn-cv" download>
-
-                <i class="fas fa-download"></i>
-                Baixar CV
-
-            </a>
-
-        </div>
-
+        <a
+          href="./src/arquivos/RICHARD-MARQUES-Full-Dev.pdf"
+          class="btn-cv"
+          download
+        >
+          <i class="fas fa-download"></i>
+          Baixar CV
+        </a>
+      </div>
     </header>
 
     <!-- HOME -->
 
     <section id="home" class="home">
+      <div class="container home-content">
+        <div class="informacoes">
+          <span class="tag"> 👋 Olá, eu sou </span>
 
-        <div class="container home-content">
+          <h1>
+            Richard
+            <span>Marques</span>
+          </h1>
 
-            <div class="informacoes">
+          <h2>Desenvolvedor Front-End</h2>
 
-                <span class="tag">
-                    👋 Olá, eu sou
-                </span>
+          <p>
+            Desenvolvedor Front-End focado na criação de interfaces modernas,
+            responsivas e funcionais, priorizando sempre a melhor experiência do
+            usuário.
+          </p>
 
-                <h1>
-                    Richard
-                    <span>Marques</span>
-                </h1>
+          <div class="botoes-home">
+            <a href="#projetos" class="btn-primary"> Ver Projetos </a>
 
-                <h2>
-                    Desenvolvedor Front-End
-                </h2>
+            <a href="#contato" class="btn-secondary"> Contato </a>
+          </div>
 
-                <p>
-                    Desenvolvedor Front-End focado na criação de interfaces modernas,
-                    responsivas e funcionais, priorizando sempre a melhor experiência do usuário.
-                </p>
+          <ul class="redes-sociais">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/richard-marques-80b2931b4/"
+                target="_blank"
+                class="linkedin"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
 
-                <div class="botoes-home">
+            <li>
+              <a
+                href="https://wa.me/554896317414"
+                target="_blank"
+                class="whatsapp"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
 
-                    <a href="#projetos" class="btn-primary">
-                        Ver Projetos
-                    </a>
+            <li>
+              <a
+                href="https://github.com/Marques-Richard"
+                target="_blank"
+                class="github"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
 
-                    <a href="#contato" class="btn-secondary">
-                        Contato
-                    </a>
-
-                </div>
-
-                <ul class="redes-sociais">
-
-                    <li>
-                        <a href="https://www.linkedin.com/in/richard-marques-80b2931b4/" target="_blank"
-                            class="linkedin">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://wa.me/554896317414" target="_blank" class="whatsapp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/Marques-Richard" target="_blank" class="github">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.instagram.com/richard_m_marques" target="_blank" class="instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-            <div class="container-foto">
-
-                <div class="foto sombra-interna">
-
-                    <img src="./src/imagens/Richard-praia-perfil.webp" alt="Richard Marques">
-
-                </div>
-
-            </div>
-
+            <li>
+              <a
+                href="https://www.instagram.com/richard_m_marques"
+                target="_blank"
+                class="instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
         </div>
 
+        <div class="container-foto">
+          <div class="foto sombra-interna">
+            <img
+              src="./src/imagens/Richard-praia-perfil.webp"
+              alt="Richard Marques"
+            />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- SOBRE -->
 
     <section id="sobre" class="sobre">
+      <div class="container">
+        <h2 class="titulo-secao">Sobre Mim</h2>
 
-        <div class="container">
+        <div class="sobre-content">
+          <div class="card-sobre">
+            <h3>Minha Jornada</h3>
 
-            <h2 class="titulo-secao">
-                Sobre Mim
-            </h2>
+            <p>
+              Atuo há mais de 4 anos na área de logística como Analista de
+              Logística, desenvolvendo habilidades em organização, resolução de
+              problemas, gestão de processos e trabalho em equipe.
+            </p>
+          </div>
 
-            <div class="sobre-content">
+          <div class="card-sobre">
+            <h3>Desenvolvimento Web</h3>
 
-                <div class="card-sobre">
+            <p>
+              Atualmente estou focado em Desenvolvimento Front-End, criando
+              projetos reais com HTML, CSS, JavaScript, Next.js e Tailwind CSS.
+            </p>
+          </div>
 
-                    <h3>
-                        Minha Jornada
-                    </h3>
+          <div class="card-sobre">
+            <h3>Objetivo</h3>
 
-                    <p>
-                        Atuo há mais de 4 anos na área de logística como Analista de Logística,
-                        desenvolvendo habilidades em organização, resolução de problemas,
-                        gestão de processos e trabalho em equipe.
-                    </p>
-
-                </div>
-
-                <div class="card-sobre">
-
-                    <h3>
-                        Desenvolvimento Web
-                    </h3>
-
-                    <p>
-                        Atualmente estou focado em Desenvolvimento Front-End,
-                        criando projetos reais com HTML, CSS, JavaScript, Next.js e Tailwind CSS.
-                    </p>
-
-                </div>
-
-                <div class="card-sobre">
-
-                    <h3>
-                        Objetivo
-                    </h3>
-
-                    <p>
-                        Busco minha oportunidade como Desenvolvedor Front-End,
-                        contribuindo com soluções modernas e experiências digitais de qualidade.
-                    </p>
-
-                </div>
-
-            </div>
-
+            <p>
+              Busco minha oportunidade como Desenvolvedor Front-End,
+              contribuindo com soluções modernas e experiências digitais de
+              qualidade.
+            </p>
+          </div>
         </div>
-
+      </div>
     </section>
 
     <!-- TECNOLOGIAS -->
 
     <section id="tecnologias" class="tecnologias">
+      <div class="container">
+        <h2 class="titulo-secao">Tecnologias</h2>
 
-        <div class="container">
+        <div class="grid-tech">
+          <div class="card-tech">
+            <i class="devicon-html5-plain colored"></i>
+            <span>HTML5</span>
+          </div>
 
-            <h2 class="titulo-secao">
-                Tecnologias
-            </h2>
+          <div class="card-tech">
+            <i class="devicon-css3-plain colored"></i>
+            <span>CSS3</span>
+          </div>
 
-            <div class="grid-tech">
+          <div class="card-tech">
+            <i class="devicon-javascript-plain colored"></i>
+            <span>JavaScript</span>
+          </div>
 
-                <div class="card-tech">
-                    <i class="devicon-html5-plain colored"></i>
-                    <span>HTML5</span>
-                </div>
+          <div class="card-tech">
+            <i class="devicon-react-original colored"></i>
+            <span>React</span>
+          </div>
 
-                <div class="card-tech">
-                    <i class="devicon-css3-plain colored"></i>
-                    <span>CSS3</span>
-                </div>
+          <div class="card-tech">
+            <i class="devicon-nextjs-plain"></i>
+            <span>Next.js</span>
+          </div>
 
-                <div class="card-tech">
-                    <i class="devicon-javascript-plain colored"></i>
-                    <span>JavaScript</span>
-                </div>
+          <div class="card-tech">
+            <i class="devicon-git-plain colored"></i>
+            <span>Git</span>
+          </div>
 
-                <div class="card-tech">
-                    <i class="devicon-react-original colored"></i>
-                    <span>React</span>
-                </div>
+          <div class="card-tech">
+            <i class="devicon-github-original"></i>
+            <span>GitHub</span>
+          </div>
 
-                <div class="card-tech">                    
-            <i class="devicon-nextjs-plain"></i>         
-                    <span>Next.js</span>
-                </div>
-
-                <div class="card-tech">
-                    <i class="devicon-git-plain colored"></i>
-                    <span>Git</span>
-                </div>
-
-                <div class="card-tech">
-                    <i class="devicon-github-original"></i>
-                    <span>GitHub</span>
-                </div>
-
-                <div class="card-tech">
-                    <i class="devicon-vscode-plain colored"></i>
-                    <span>VS Code</span>
-                </div>
-
-            </div>
-
+          <div class="card-tech">
+            <i class="devicon-vscode-plain colored"></i>
+            <span>VS Code</span>
+          </div>
         </div>
-
+      </div>
     </section>
 
     <!-- PROJETOS -->
 
     <section id="projetos" class="projetos">
+      <div class="container">
+        <h2 class="titulo-secao">Projetos em Destaque</h2>
 
-        <div class="container">
+        <div class="container-projetos">
+          <div class="projeto ativo">
+            <a
+              href="https://marques-richard.github.io/PsicoSystem/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/psicosystem.webp"
+                alt="Projeto Site - Gestão clínica para psicólogos"
+              />
+              <h3>PsicoSystem -<br />Gestão Clínica para Psicólogos</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
-            <h2 class="titulo-secao">
-                Projetos em Destaque
-            </h2>
+          <div class="projeto ativo">
+            <a
+              href="https://app-save-point-burgers.vercel.app/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/save-point.webp"
+                alt="Projeto APP - Save Point Burgers"
+              />
+              <h3>Save Point<br />Burgers</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado Next.js, TypeScript e Tailwind CSS</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
-            <div class="container-projetos">
+          <div class="projeto ativo">
+            <a
+              href="https://marques-richard.github.io/Fernanda-APP-Constru-mais/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/contrumais.webp"
+                alt="Projeto Site - UI/UX Designer"
+              />
+              <h3>Da Planta Baixa<br />Aos Pixels</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
+          <div class="projeto ativo">
+            <a
+              href="https://marques-richard.github.io/Fernanda-Rosa-Arquiteta/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/logo-fernanda.webp"
+                alt="Projeto Site Arq. Fernanda Rosa"
+              />
+              <h3>Fernanda Rosa<br />Arquiteta</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
-                <div class="projeto ativo">
-                    <a href="https://marques-richard.github.io/PsicoSystem/" target="_blank">
-                        <img src="./src/imagens/psicosystem.webp" alt="Projeto Site - Gestão clínica para psicólogos" />
-                        <h3>PsicoSystem -<br>Gestão Clínica para Psicólogos</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
+          <div class="projeto ativo">
+            <a
+              href="https://marques-richard.github.io/Galaxy-Hamburguer/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/capa-galaxy-burguer.webp"
+                alt="Hamburgueria Galatica"
+              />
+              <h3>Galaxy Hamburguer</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
-                <div class="projeto ativo">
-                    <a href="https://app-save-point-burgers.vercel.app/" target="_blank">
-                        <img src="./src/imagens/save-point.webp" alt="Projeto APP - Save Point Burgers" />
-                        <h3>Save Point<br>Burgers</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado Next.js, TypeScript e Tailwind CSS</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
+          <div class="projeto ativo">
+            <a
+              href="https://marques-richard.github.io/Richard-Nanda-Filmes-flix/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/rf-filmes.webp"
+                alt="Projeto Filmes Flix"
+              />
+              <h3>
+                Richard e Nanda<br />
+                Filmes (flix)
+              </h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
-                <div class="projeto ativo">
-                    <a href="https://marques-richard.github.io/Fernanda-APP-Constru-mais/" target="_blank">
-                        <img src="./src/imagens/contrumais.webp" alt="Projeto Site - UI/UX Designer" />
-                        <h3>Da Planta Baixa<br>Aos Pixels</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
+          <div class="projeto inativo">
+            <a
+              href="https://marques-richard.github.io/Hist-ria-dos-PlayStation-PS1-ao-PS5/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/todos-playstations.webp"
+                alt="História dos PlayStation (PS1 ao PS5)"
+              />
+              <h3>Evolução dos<br />PlayStations</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
-                <div class="projeto ativo">
-                    <a href="https://marques-richard.github.io/Fernanda-Rosa-Arquiteta/" target="_blank">
-                        <img src="./src/imagens/logo-fernanda.webp" alt="Projeto Site Arq. Fernanda Rosa" />
-                        <h3>Fernanda Rosa<br>Arquiteta</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
+          <div class="projeto inativo">
+            <a
+              href="https://marques-richard.github.io/projeto-re4r-by-richard-marques/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens//RE4-leon.webp"
+                alt="Projeto Detonado RE4 Remake"
+              />
+              <h3>
+                Resident Evil 4 <br />
+                Remake
+              </h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
+          <div class="projeto inativo">
+            <a
+              href="https://marques-richard.github.io/Projeto-A-Resistencia-Final/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/A-resistencia-logo.webp"
+                alt="Projeto Site de Historia de Terror"
+              />
+              <h3>A Resitência Final - Tubarão City</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
-                <div class="projeto ativo">
-                    <a href="https://marques-richard.github.io/Galaxy-Hamburguer/" target="_blank">
-                        <img src="./src/imagens/capa-galaxy-burguer.webp" alt="Hamburgueria Galatica" />
-                        <h3>Galaxy Hamburguer</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
+          <div class="projeto inativo">
+            <a
+              href="https://marques-richard.github.io/projeto-legend-of-the-dragoon/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens/legend-of-dragoon.webp"
+                alt="Projeto Remeke do jogo LOD"
+              />
+              <h3>Legend of the Dragoon</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
-                <div class="projeto ativo">
-                    <a href="https://marques-richard.github.io/Richard-Nanda-Filmes-flix/" target="_blank">
-                        <img src="./src/imagens/rf-filmes.webp" alt="Projeto Filmes Flix" />
-                        <h3>Richard e Nanda<br> Filmes (flix)</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
+          <div class="projeto inativo">
+            <a href="#" target="_blank">
+              <img
+                src="./src/imagens/em-contrucao692x977.webp"
+                alt="Capa do projeto"
+              />
+              <h3>Projeto em contrução</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto em contrução utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
 
-                <div class="projeto inativo">
-                    <a href="https://marques-richard.github.io/Hist-ria-dos-PlayStation-PS1-ao-PS5/" target="_blank">
-                        <img src="./src/imagens/todos-playstations.webp" alt="História dos PlayStation (PS1 ao PS5)" />
-                        <h3>Evolução dos<br>PlayStations</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="projeto inativo">
-                    <a href="https://marques-richard.github.io/projeto-re4r-by-richard-marques/" target="_blank">
-                        <img src="./src/imagens//RE4-leon.webp" alt="Projeto Detonado RE4 Remake" />
-                        <h3>Resident Evil 4 <br> Remake</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="projeto inativo">
-                    <a href="https://marques-richard.github.io/Projeto-A-Resistencia-Final/" target="_blank">
-                        <img src="./src/imagens/A-resistencia-logo.webp" alt="Projeto Site de Historia de Terror" />
-                        <h3>A Resitência Final - Tubarão City</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="projeto inativo">
-                    <a href="https://marques-richard.github.io/projeto-legend-of-the-dragoon/" target="_blank">
-                        <img src="./src/imagens/legend-of-dragoon.webp" alt="Projeto Remeke do jogo LOD" />
-                        <h3>Legend of the Dragoon</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto criado utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="projeto inativo">
-                    <a href="#" target="_blank">
-                        <img src="./src/imagens/em-contrucao692x977.webp" alt="Capa do projeto" />
-                        <h3>Projeto em contrução</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto em contrução utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="projeto inativo">
-                    <a href="#" target="_blank">
-                        <img src="./src/imagens/em-contrucao692x977.webp" alt="Capa do projeto" />
-                        <h3>Projeto em contrução</h3>
-                        <div class="informacoes-projeto">
-                            <p>Projeto em contrução utilisando HTML, CSS e JavaScript</p>
-                            <p>🔗 Ver no GitHub Pages</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
+          <div class="projeto inativo">
+            <a href="#" target="_blank">
+              <img
+                src="./src/imagens/em-contrucao692x977.webp"
+                alt="Capa do projeto"
+              />
+              <h3>Projeto em contrução</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto em contrução utilisando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
 
-        <div class="botoes-projetos">
+      <div class="botoes-projetos">
+        <button id="btnMostrarMais" class="btn-primary">Mostrar Mais</button>
 
-            <button id="btnMostrarMais" class="btn-primary">
-                Mostrar Mais
-            </button>
-
-            <button id="btnMostrarMenos" class="btn-primary esconder">
-                Mostrar Menos
-            </button>
-
-        </div>
-
+        <button id="btnMostrarMenos" class="btn-primary esconder">
+          Mostrar Menos
+        </button>
+      </div>
     </section>
 
     <!-- CONTATO -->
 
     <section id="contato" class="contato">
+      <div class="container">
+        <h2 class="titulo-secao">Vamos Conversar?</h2>
 
-        <div class="container">
+        <p>Estou aberto a oportunidades como Desenvolvedor Front-End.</p>
 
-            <h2 class="titulo-secao">
-                Vamos Conversar?
-            </h2>
+        <div class="contato-info">
+          <a href="mailto:richardmarques.tb@gmail.com">
+            📧 richardmarques.tb@gmail.com
+          </a>
 
-            <p>
-                Estou aberto a oportunidades como Desenvolvedor Front-End.
-            </p>
-
-            <div class="contato-info">
-
-                <a href="mailto:richardmarques.tb@gmail.com">
-                    📧 richardmarques.tb@gmail.com
-                </a>
-
-                <a href="https://wa.me/5548996317414" target="_blank">
-                    📱 WhatsApp
-                </a>
-
-            </div>
-
+          <a href="https://wa.me/5548996317414" target="_blank">
+            📱 WhatsApp
+          </a>
         </div>
-
+      </div>
     </section>
 
     <!-- FOOTER -->
 
-
     <footer>
+      <div class="footer-top-line"></div>
 
-        <div class="footer-top-line"></div>
+      <div class="footer container">
+        <img
+          id="rodape"
+          src="./src/imagens/rodape.webp"
+          alt="Richard Marques programando"
+        />
 
-        <div class="footer container">
+        <h3>Richard Marques</h3>
 
-            <img id="rodape" src="./src/imagens/rodape.webp" alt="Richard Marques programando">
+        <h4>Desenvolvedor Front-End</h4>
 
-            <h3>Richard Marques</h3>
+        <p class="descricao-footer">
+          Criando interfaces modernas, responsivas e focadas na experiência do
+          usuário.
+        </p>
 
-            <h4>Desenvolvedor Front-End</h4>
+        <p class="cta">🚀 Aberto a oportunidades</p>
 
-            <p class="descricao-footer">
-                Criando interfaces modernas, responsivas e focadas na experiência do usuário.
-            </p>
+        <div class="footer-contato">
+          <div class="contato-item">
+            <span>📧</span>
+            <p>richardmarques.tb@gmail.com</p>
+          </div>
 
-            <p class="cta">
-                🚀 Aberto a oportunidades
-            </p>
-
-            <div class="footer-contato">
-
-                <div class="contato-item">
-                    <span>📧</span>
-                    <p>richardmarques.tb@gmail.com</p>
-                </div>
-
-                <div class="contato-item">
-                    <span>📱</span>
-                    <p>(48) 99631-7414</p>
-                </div>
-
-            </div>
-
-            <ul class="redes-sociais-footer">
-
-                <li>
-                    <a href="https://www.linkedin.com/in/richard-marques-80b2931b4/" class="linkedin" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://wa.me/554896317414" class="whatsapp" target="_blank">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://github.com/Marques-Richard" class="github" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://www.instagram.com/richard_m_marques" class="instagram" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-
-            </ul>
-
-            <span class="copy">
-                © 2026 Richard Marques • Todos os direitos reservados
-            </span>
-
+          <div class="contato-item">
+            <span>📱</span>
+            <p>(48) 99631-7414</p>
+          </div>
         </div>
 
+        <ul class="redes-sociais-footer">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/richard-marques-80b2931b4/"
+              class="linkedin"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://wa.me/554896317414"
+              class="whatsapp"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://github.com/Marques-Richard"
+              class="github"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.instagram.com/richard_m_marques"
+              class="instagram"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+
+        <span class="copy">
+          © 2026 Richard Marques • Todos os direitos reservados
+        </span>
+      </div>
     </footer>
 
-
-
     <script src="./src/js/index.js"></script>
-
-</body>
-
+  </body>
 </html>
